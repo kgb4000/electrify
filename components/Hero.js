@@ -3,8 +3,8 @@ import React from 'react'
 const Hero = ({ h1text, subtext, backgroundImage, backgroundHeight }) => {
   return (
     <>
-      <div className="bg-[url('/images/hero-img.jpg')] bg-center bg-no-repeat bg-cover">
-        <div className="mx-auto max-w-4xl py-60 sm:py-80 lg:py-80">
+      <div className="bg-[url('/images/hero-img.jpg')] h-4/6 bg-no-repeat bg-cover bg-bottom ">
+        <div className="mx-auto max-w-4xl py-60 xl:py-60 2xl:py-70">
           <div className="text-center">
             <h1 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
               {h1text}
