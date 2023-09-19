@@ -81,7 +81,7 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <Link
-                  href="testimonials"
+                  href="/testimonials"
                   className="text-neutral-600 dark:text-neutral-200"
                 >
                   Testimonials

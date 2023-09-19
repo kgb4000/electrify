@@ -3,9 +3,9 @@ import React from 'react'
 const Testimonial = ({ name, text }) => {
   return (
     <>
-        <div className="mb-12 md:mb-0">
-          <h5 className="mb-2 text-lg font-bold">{name}</h5>
-          <p className="mb-4">
+        <div className="my-12">
+          <h5 className="mb-6 text-lg font-bold">{name}</h5>
+          <p className="mb-6">
             {text}
             <svg
               xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Testimonials = () => {
   return (
@@ -512,15 +513,13 @@ const Testimonials = () => {
               </ul>
             </div>
           </div>
-          <div className="text-center mt-0">
-            <button
-              type="button"
-              data-te-ripple-init
-              data-te-ripple-color="light"
-              className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base  font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
+          <div className="text-center mt-40">
+            <Link
+              href="/testimonials"
+              className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
             >
-              Read More Testimonials
-            </button>
+              Read More Testimonials <span aria-hidden="true">→</span>
+            </Link>
           </div>
         </section>
       </div>
