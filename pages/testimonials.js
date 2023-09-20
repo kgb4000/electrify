@@ -13,7 +13,7 @@ const Testimonials = () => {
         subtext="We're electricians serving residential
             and commerical customers in Waldorf, Maryland"
       /> */}
-      <div className="bg-[url('https://images.pexels.com/photos/5693405/pexels-photo-5693405.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-center bg-no-repeat bg-cover">
+      <div className="bg-blend-overlay bg-[url('https://images.pexels.com/photos/5693405/pexels-photo-5693405.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-center bg-no-repeat bg-cover backdrop-saturate-50 bg-black/30">
         <div className="mx-auto max-w-6xl py-40 sm:py-30 px-6">
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-8xl">
@@ -50,7 +50,7 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="mx-auto max-w-6xl">
-          <section className="mb-32 text-center grid grid-cols-3 gap-10">
+          <section className="mb-32 text-center grid md:grid-cols-2 xl:grid-cols-3 gap-10">
             <Testimonial
               name="Robert Rafford"
               text="Extremely professional and efficient! Had a ground wire put in between my garage and shed to get power out to the shed. Have used these guys twice now and would HIGHLY recommend them! Ronald is quick to let you know if there is going to be any delay or issues. Everything these guys have done for me has been top notch!!"
@@ -99,7 +99,6 @@ const Testimonials = () => {
               name="Aaron Haas"
               text="I requested a quote for a 200 amp upgrade at around 10pm on a Sunday night. I got a response at around 6am the next morning from Jerome saying that he could be there as early as 7:30 that same morning! He was on time, professional, and made recommendations that made sense instead of just overselling what I actually needed. I received an official quote about an hour later. I highly recommend Electrify Electric, and will be using them for any future work I need done."
             />
-
             <Testimonial
               name="Chad Faison"
               text="Erik and Ethan were very professional, knowledgeable, and resolved the issue in a timely manner. Electrify Electric will be our first call whenever we have electrical issues in the future!"
@@ -139,6 +138,10 @@ const Testimonials = () => {
             <Testimonial
               name="Clarence Mitchell"
               text="From the initial job quote to the job completion, Electrify Electric, LLC (EE, LLC) demonstrated the highest level of professionalism and pride in the quality of work they have done in my home. It is not easy finding companies you can trust, to not only just get the job done. You can trust EE, LLC’s exceptional quality of work having a high-level of attention-to-detail, getting the job completed right, the first time. Not only can you trust the quality of work, most important, you can trust the fair pricing. EE, LLC  completed a major upgrade/update to our main electric panel box and related switches/plugs throughout the home, replacing a 40-year-old panel box which had a few major safety issues. In addition, they install a new wired EV charger, wired Ring Floodlights and other external home lighting. My wife and I are extremely happy with their work and would highly recommend them to others without any doubts or hesitation. Outstanding job and customer service!"
+            />
+            <Testimonial
+              name="Aaron Haas"
+              text="I requested a quote for a 200 amp upgrade at around 10pm on a Sunday night. I got a response at around 6am the next morning from Jerome saying that he could be there as early as 7:30 that same morning! He was on time, professional, and made recommendations that made sense instead of just overselling what I actually needed. I received an official quote about an hour later. I highly recommend Electrify Electric, and will be using them for any future work I need done."
             />
             <Testimonial
               name="Zo"

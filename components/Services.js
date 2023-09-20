@@ -1,8 +1,9 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Services = () => {
   return (
-    <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-32">
+    <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-16">
       <div className="text-center w-4xl px-6">
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
           Our Most Popular Electrical Services
@@ -114,10 +115,10 @@ const Services = () => {
                   Illuminate and secure your premises with our expert security
                   lighting solutions. Whether you're looking to deter unwelcome
                   visitors, enhance nighttime visibility, or elevate your
-                  property's aesthetics, we got you. And if ever a
-                  light flickers or dims, our prompt repair team is ready to
-                  restore brilliance and security. Your property
-                  doesn’t just shine—it's safeguarded.
+                  property's aesthetics, we got you. And if ever a light
+                  flickers or dims, our prompt repair team is ready to restore
+                  brilliance and security. Your property doesn’t just shine—it's
+                  safeguarded.
                 </p>
                 <button
                   type="button"
@@ -186,15 +187,13 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-40">
-          <button
-            type="button"
-            data-te-ripple-init
-            data-te-ripple-color="light"
-            class="inline-block  bg-yellow-400 rounded px-10 py-5 text-base  font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
+        <div className="text-center mt-20 mb-10">
+          <Link
+            href="#"
+            className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
           >
-            See All Our Services
-          </button>
+            See All Our Services <span aria-hidden="true">→</span>
+          </Link>
         </div>
       </div>
     </div>

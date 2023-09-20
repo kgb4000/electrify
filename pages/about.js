@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
 const About = () => {
   return (
     <>
@@ -127,12 +128,12 @@ const About = () => {
               </li>
             </ul>
             <div className="text-center mt-20">
-              <a
+              <Link
                 href="#"
                 className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 See All Our Services <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

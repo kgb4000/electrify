@@ -15,7 +15,7 @@ const ServiceAreas = () => {
       <div>
         <div className="mt-10 flex items-center justify-center">
           <div class="container grid lg:grid-cols-3 text-center">
-            <div>
+            <div className="my-10">
               <ul className="space-y-8">
                 <li>Bel Alton, MD</li>
                 <li>Benedict, MD</li>
@@ -27,7 +27,7 @@ const ServiceAreas = () => {
                 <li>Faulkner, MD</li>
               </ul>
             </div>
-            <div>
+            <div className="my-10">
               <ul className="space-y-8">
                 <li>Faulkner, MD</li>
                 <li>Fort Washington, MD</li>
@@ -39,7 +39,7 @@ const ServiceAreas = () => {
                 <li>Marbury, MD</li>
               </ul>
             </div>
-            <div>
+            <div className="my-10">
               <ul className="space-y-8">
                 <li>Mount Victoria, MD</li>
                 <li>Nanjemoy, MD</li>
@@ -55,13 +55,13 @@ const ServiceAreas = () => {
             </div>
           </div>
         </div>
-        <div className="text-center mt-40">
-          <a
+        <div className="text-center mt-20 mb-10">
+          <Link
             href="#"
             className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
           >
             See All Our Services <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>

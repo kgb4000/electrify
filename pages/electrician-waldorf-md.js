@@ -1,10 +1,11 @@
 import React from 'react'
+import Link from 'next/link'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import GetQuoteForm from '@/components/GetQuoteForm'
 import Footer from '@/components/Footer'
-import Testimonials from '@/components/Testimonials'
 import Testimonial from '@/components/Testimonial'
+import PageContactForm from '@/components/PageContactForm'
 
 const electricianWaldorfMD = () => {
   return (
@@ -268,14 +269,15 @@ const electricianWaldorfMD = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-20">
+              <PageContactForm />
+              {/* <div className="mt-20">
                 <a
                   href="#"
                   className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
                 >
                   Get Your Quote Today <span aria-hidden="true">→</span>
                 </a>
-              </div>
+              </div> */}
               <div className="mt-20">
                 <h2 className="text-4xl font-bold tracking-tight text-black sm:text-6xl leading-10 py-5 ">
                   Commercial Electrician in Waldorf, Maryland
@@ -392,15 +394,13 @@ const electricianWaldorfMD = () => {
               />
             </div>
             <div className="text-center mt-20">
-              <button
-                type="button"
-                data-te-ripple-init
-                data-te-ripple-color="light"
-                className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base  font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
-              >
-                Read More Testimonials
-              </button>
-            </div>
+              <Link
+            href="/testimonials"
+            className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
+          >
+            Read More Testimonials <span aria-hidden="true">→</span>
+          </Link>
+          </div>
           </section>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const SpecialPromotions = () => {
   return (
@@ -9,11 +10,10 @@ const SpecialPromotions = () => {
             Specials and Promotions
           </h2>
           <p className="mx-auto max-w-5xl mt-6 text-lg leading-8 text-gray-600 text-center">
-            We understand that you value every dollar.
-            Our goal is to offer everyone the most affordable services at the
-            exceptional quality. When it comes to Electrical Work in our
-            community, Electrify Electric is a household name. We keep it
-            Electrifying!!!
+            We understand that you value every dollar. Our goal is to offer
+            everyone the most affordable services at the exceptional quality.
+            When it comes to Electrical Work in our community, Electrify
+            Electric is a household name. We keep it Electrifying!!!
           </p>
         </div>
         <div className="grid lg:grid-cols-4 gap-5 my-20 px-6">
@@ -83,13 +83,13 @@ const SpecialPromotions = () => {
             about – No surprises or unexpected late fees
           </p>
         </div>
-        <div className="text-center mt-40">
-          <a
+        <div className="text-center mt-20 mb-10">
+          <Link
             href="#"
             className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
           >
             Call Us To Learn More <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
     </>

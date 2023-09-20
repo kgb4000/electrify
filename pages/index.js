@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Header from '@/components/Header'
+import Intro from '@/components/Intro'
 import Hero from '@/components/Hero'
 import LogoCloud from '@/components/LogoCloud'
 import Services from '@/components/Services'
@@ -24,6 +25,7 @@ export default function Home() {
             and Commerical Customers in Southern Maryland, DC and Northern
             Virginia"
       />
+      <Intro />
       <Services />
       <Testimonials />
       <ServicePlans />

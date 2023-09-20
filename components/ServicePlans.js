@@ -72,7 +72,7 @@ const ServicePlans = () => {
               </div>
             </div>
           </div>
-          <div className="text-center mt-20">
+          <div className="text-center mt-20 mb-10">
             <button
               type="button"
               data-te-ripple-init

@@ -3,7 +3,7 @@ import React from 'react'
 const LogoCloud = () => {
   return (
     <>
-      <div className="bg-white py-24 sm:py-32">
+      <div className="bg-white py-10 sm:py-12">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center w-4xl">
             <h2 className="text-center text-4xl font-bold tracking-loose text-gray-900 sm:text-5xl">
@@ -60,7 +60,7 @@ const LogoCloud = () => {
               height={48}
             />
           </div>
-          <div className="text-center m-10">
+          <div className="text-center mt-20 mb-10">
             <button
               type="button"
               data-te-ripple-init

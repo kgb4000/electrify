@@ -69,7 +69,9 @@ const Header = () => {
               <div className="flex lg:flex-1">
                 <Link href="/" className="-m-1.5 p-1.5">
                   <span className="sr-only">Your Company</span>
-                  <div className=" text-lg text-black font-semibold">Electrify Electric</div>
+                  <div className=" text-lg text-black font-semibold">
+                    Electrify Electric
+                  </div>
                 </Link>
               </div>
               <button
@@ -85,13 +87,13 @@ const Header = () => {
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
                   {navigation.map((item) => (
-                    <a
+                    <Link
                       key={item.name}
                       href={item.href}
                       className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >
                       {item.name}
-                    </a>
+                    </Link>
                   ))}
                 </div>
                 <div className="py-6">

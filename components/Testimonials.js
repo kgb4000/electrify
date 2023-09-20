@@ -513,7 +513,7 @@ const Testimonials = () => {
               </ul>
             </div>
           </div>
-          <div className="text-center mt-40">
+          <div className="text-center mt-20 mb-10">
             <Link
               href="/testimonials"
               className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
