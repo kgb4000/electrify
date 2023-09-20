@@ -10,12 +10,12 @@ const Testimonials = () => {
             <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               What Our Customers Say
             </h2>
-            <p className="mx-auto max-w-2xl mt-6 text-lg leading-8 text-gray-600 text-center">
+            <p className="mx-auto max-w-4xl mt-6 text-xl leading-8 text-gray-600 text-center">
               See what more than 240 customers on Google had to say about our
               services.
             </p>
           </div>
-          <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12 my-20 px-6">
+          <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12 my-20 sm:px-6">
             <div className="mb-12 md:mb-0">
               <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
               <p className="mb-4">

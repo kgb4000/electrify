@@ -6,9 +6,9 @@ const ServicePlans = () => {
       <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-16">
         <div className="text-center w-4xl">
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-            Explore Our Electrical Service Plans
+            Explore Our Residential Electrical Service Plans
           </h2>
-          <p className="mx-auto max-w-4xl mt-6 text-lg leading-8 text-gray-600 text-center">
+          <p className="mx-auto max-w-4xl mt-6 text-lg leading-8 text-gray-600 text-center px-6">
             With an electrical maintenace plan, you won't find yourself in a
             pannic wondering who to call when you're having problems with your
             electrical system.

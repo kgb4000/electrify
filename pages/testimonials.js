@@ -44,7 +44,7 @@ const Testimonials = () => {
           <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             What Our Customers Say
           </h2>
-          <p className="mx-auto max-w-2xl mt-6 text-lg leading-8 text-gray-600 text-center">
+          <p className="mx-auto max-w-4xl mt-6 text-xl leading-8 text-gray-600 text-center">
             See what more than 240 customers on Google had to say about our
             services.
           </p>

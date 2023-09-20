@@ -4,13 +4,13 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <footer className="bg-zinc-50 mx-auto max-w-full text-center lg:text-left lg:py-16 px-16">
+      <footer className="bg-zinc-50 mx-auto max-w-full lg:text-left lg:py-16 px-6">
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
-        <div className="mx-6 py-10 text-center md:text-left">
+        <div className="mx-6 py-10 md:text-left">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
             {/* <!-- Tailwind Elements section --> */}
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Hours of Operation
               </h6>
               <p className="mb-4">
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
             {/* <!-- Useful links section --> */}
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Useful links
               </h6>
               <p className="mb-4">
@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
             {/* <!-- Products section --> */}
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Residential
               </h6>
               <p className="mb-4">
@@ -188,12 +188,12 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200">
-                  24-Hour Emergency Service
+                  24-Hour Emergency Electrician
                 </a>
               </p>
             </div>
             <div className="">
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Commercial
               </h6>
               <p className="mb-4">
@@ -243,17 +243,17 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200">
-                  24-Hour Emergency Service
+                  24-Hour Emergency Electrician
                 </a>
               </p>
             </div>
 
             {/* <!-- Contact section --> */}
             <div>
-              <h6 className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -265,10 +265,8 @@ const Footer = () => {
                 </svg> */}
                 Address: 3235 Old Washington Rd,
               </p>
-              <p className="mb-4 flex md:justify-start">
-                Waldorf, MD 20602
-              </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 lg:flex md:justify-start">Waldorf, MD 20602</p>
+              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -280,7 +278,7 @@ const Footer = () => {
                 </svg> */}
                 Email: Jerome@Electrify247.com
               </p>
-              <p className="mb-4 flex items-center justify-center md:justify-start">
+              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"

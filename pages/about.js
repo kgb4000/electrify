@@ -96,35 +96,51 @@ const About = () => {
             <p className="py-5">
               Electrify Electric LLC has steadily increased its market share in
               the Mid-Atlantic region as a direct result of the growth and
-              capabilities of the company and staff. Electrician Fixing Light
-              Fitting in Newly Decorated Room
+              capabilities of the company and staff.
             </p>
             <div className="text-center m-20">
-              <a
-                href="#"
+              <Link
+                href="/electrical-services"
                 className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 See All Our Services <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
-          <div className="text-center w-4xl">
+          <div className="text-center w-4xl mx-auto max-w-3xl">
             <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Our Approach
+              Keep It Electrifying
             </h2>
             <p className="m-6 text-lg leading-8 text-gray-600 text-center">
-              Electrify Electric, LLC has over 20 years experience in the
-              Electrical Industry.
+              Here at Electrify Electric, LLC, we give the most efficient
+              service at the highest quality in the spirit of harmony. We earn
+              the reputation for honesty and exceptional work. Our level of
+              dedication matches our level of experience and that is exactly
+              what clients have come to know and expect. Whether working on a
+              new construction project or wiring a home for a theater system, we
+              take the time to do the job right the first time.
             </p>
-            <ul className="space-y-6">
+            <p className="m-6 text-lg leading-8 text-gray-600 text-center">
+              Electrify Electric, LLC has over 20 years experience in the
+              electrical industry.
+            </p>
+            <ul className="space-y-6 mx-auto m-10">
               <li className="text-3xl">
-                We are Maryland Minority Enterprise Certified
+                MDOT certified, MD MBE certified, DBE, SBE
               </li>
               <li className="text-3xl">
-                Master Electrician Licenses in MD, VA, and DC
+                Master electrician licenses in MD, VA, and DC
               </li>
               <li className="text-3xl">
-                We warrant our service installs for one year
+                Service installs warranted for one year
+              </li>
+              <li className="text-3xl">Reputable & experienced service</li>
+              <li className="text-3xl">
+                Our reputation is built on quality & integrity
+              </li>
+              <li className="text-3xl">Dependable & timely professionals</li>
+              <li className="text-3xl">
+                Our goal is 100% excellence, every job!
               </li>
             </ul>
             <div className="text-center mt-20">

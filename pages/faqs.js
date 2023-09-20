@@ -2,6 +2,8 @@ import React from 'react'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Footer from '@/components/Footer'
+import Link from 'next/link'
+
 const FAQ = () => {
   return (
     <>
@@ -38,100 +40,126 @@ const FAQ = () => {
         subtext="Learn more about Electrify Electric and why we're the right fit for your residential or commercial electrical projects."
       /> */}
       <main>
-        <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-16">
+        <div className="mx-auto max-w-7xl py-10 sm:py-12 lg:py-16">
           <div className="text-center w-3xl">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               Frequently Asked Questions
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600 text-center">
-              Hre are some faqs that can help you decide if you need an electrician to help solve your issues
+            <p className="mt-6 text-lg leading-8 text-gray-600 text-center max-w-3xl mx-auto">
+              Please review the following frequently asked questions below. If
+              you still have more questions not addressed here, please use our
+              contatc form, give us a call at 240-476-5116 or send an email to
+              Jerome@Electrify247.com.
             </p>
           </div>
-          <div className="mx-auto max-w-3xl py-5 px-6 sm:py-12 lg:py-16">
-            <p className="py-5">
-              At Electrify Electric LLC, we give the most efficient service at
-              the highest possible quality and in the spirit of harmony. We earn
-              the reputation for honesty and exceptional work.
-            </p>
-            <p className="py-5">
-              Our level of dedication matches our level of experience and that
-              is exactly what clients have come to know and expect. Whether
-              working on a new construction project or wiring a home for a
-              theater system, we take the time to do the job right the first
-              time.
-            </p>
-            <p className="py-5">
-              In 2018, Jerome Monticquee founded Electrify Electric, LLC, and
-              began providing residential electrical services.
-            </p>
-            <p className="py-5">
-              y focusing on custom electrical renovations, the company has built
-              a five-star reputation. Since then, we have expanded our services
-              to include electrical upgrades, fire alarms, public address
-              systems and commercial remodeling in both the commercial and
-              residential spaces.
-            </p>
-            <p className="py-5">
-              Our mission at Electrify Electric, LLC is to provide the best
-              possible electrical service experience and highest level of
-              customer service possible while maintaining our core values of
-              safety, teamwork, and professionalism.
-            </p>
-            <p className="py-5">
-              Electrify Electric’s steady growth and stellar reputation have
-              demonstrated the continuing efforts of our dedicated staff in
-              delivering superior services.
-            </p>
-            <p className="py-5">
-              Our competitive pricing and certifications as a Minority Business
-              Enterprise (MBE) and Small Business Reserve (SBR) vendor afford
-              our partners opportunities to meet their participation goals.
-            </p>
-            <p className="py-5">
-              Electrify Electric, LLC was named Best of Waldorf 2019 Electrical
-              Installation Service winner.
-            </p>
-            <p className="py-5">
-              Electrify Electric LLC has steadily increased its market share in
-              the Mid-Atlantic region as a direct result of the growth and
-              capabilities of the company and staff. Electrician Fixing Light
-              Fitting in Newly Decorated Room
-            </p>
-            <div className="text-center m-20">
-              <a
-                href="#"
-                className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
-              >
-                See All Our Services <span aria-hidden="true">→</span>
-              </a>
+          <div className="mx-auto max-w-5xl py-5 px-6 sm:py-12 lg:py-16">
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Why should I use a Master Electrician?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
             </div>
-          </div>
-          <div className="text-center w-4xl">
-            <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-              Our Approach
-            </h2>
-            <p className="m-6 text-lg leading-8 text-gray-600 text-center">
-              Electrify Electric, LLC has over 20 years experience in the
-              Electrical Industry.
-            </p>
-            <ul className="space-y-6">
-              <li className="text-3xl">
-                We are Maryland Minority Enterprise Certified
-              </li>
-              <li className="text-3xl">
-                Master Electrician Licenses in MD, VA, and DC
-              </li>
-              <li className="text-3xl">
-                We warrant our service installs for one year
-              </li>
-            </ul>
-            <div className="text-center mt-20">
-              <a
-                href="#"
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Can you do electrical work without a license in Maryland?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                What can I do to lower my electric bill?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                What kind of electrical panel do I need?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                What is the difference between 110 and 220 volts?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Can I install electrical wiring myself?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Why is my electrical panel buzzing?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Do I need to replace an outlet if the plug is loose?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                Why Do My Lights Flicker?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-3xl font-bold tracking-tight text-gray-900">
+                What does “grounding” mean?
+              </h3>
+              <p className="py-5 text-xl leading-10">
+                At Electrify Electric LLC, we give the most efficient service at
+                the highest possible quality and in the spirit of harmony. We
+                earn the reputation for honesty and exceptional work.
+              </p>
+            </div>
+            <div className="text-center m-20">
+              <Link
+                href="/electrical-services"
                 className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 See All Our Services <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
