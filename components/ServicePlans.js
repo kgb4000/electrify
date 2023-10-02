@@ -16,7 +16,7 @@ const ServicePlans = () => {
         </div>
         <div>
           <div className="mt-10 flex items-center justify-center gap-x-6">
-            <div class="grid gap-8 lg:grid-cols-3 grid-rows-1">
+            <div class="grid gap-8 lg:grid-cols-3 grid-rows-1 px-12 lg:px-0">
               <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
                 <div className="p-10">
                   <h3 className="text-xl font-bold tracking-tight text-gray-900 sm:text-3xl pb-6">

@@ -4,8 +4,8 @@ const Testimonial = ({ name, text }) => {
   return (
     <>
       <div className="my-8">
-        <h5 className="mb-6 text-xl font-bold">{name}</h5>
-        <p className="mb-10 text-lg">
+        <h5 className="mb-6 text-xl font-bold text-center">{name}</h5>
+        <p className="mb-10 text-lg text-center">
           {text}
           <svg
             xmlns="http://www.w3.org/2000/svg"

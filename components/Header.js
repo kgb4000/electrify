@@ -79,7 +79,7 @@ const Header = () => {
             </div>
             <div className="hidden lg:flex lg:flex-1 lg:justify-end">
               <a
-                href="#"
+                href="tel:12404765116"
                 className="rounded-md bg-yellow-400 px-4 py-2.5 text-base font-semibold text-black shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-400 text-center"
               >
                 Call (240) 476 5116

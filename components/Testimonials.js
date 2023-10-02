@@ -3,10 +3,10 @@ import Link from 'next/link'
 
 const Testimonials = () => {
   return (
-    <div className="lg:px-6 bg-zinc-50 py-28">
+    <div className="px-6 bg-zinc-50 py-20">
       <div className="mx-auto max-w-6xl">
-        <section className="mb-5 text-center">
-          <div className="text-center w-4xl px-6">
+        <section className="mb-5">
+          <div className="text-center">
             <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               What Our Customers Say
             </h2>
@@ -15,10 +15,10 @@ const Testimonials = () => {
               services.
             </p>
           </div>
-          <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12 my-20 sm:px-6">
-            <div className="mb-12 md:mb-0">
-              <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
-              <p className="mb-4">
+          <div className=" px-6 grid gap-x-6 md:grid-cols-3 lg:gap-x-12 my-20 ">
+            <div className="mb-12 md:mb-0 text-center">
+              <h5 className="mb-2 md:text-2xl font-bold">Maria Smantha</h5>
+              <p className="md:text-xl mb-4">
                 Mr. Monticquee’s work ethic and professionalism is exemplary.
                 Mr. Monticquee arrived on time, informed me of what was taking
                 place, and the cause of my electrical issues. Mr. Monticquee was
@@ -98,9 +98,9 @@ const Testimonials = () => {
                 </li>
               </ul>
             </div>
-            <div className="mb-12 md:mb-0">
-              <h5 className="mb-2 text-lg font-bold">Karen Gray.</h5>
-              <p className="mb-4">
+            <div className="mb-12 md:mb-0 text-center">
+              <h5 className="mb-2 text-2xl font-bold">Karen Gray.</h5>
+              <p className="text-xl mb-4">
                 I can ALWAYS count on Electrify Electric, LLC to understand my
                 vision and deliver quality service. It's not always easy to find
                 a company that isn't looking to drain your pockets but I've
@@ -181,9 +181,9 @@ const Testimonials = () => {
                 </li>
               </ul>
             </div>
-            <div className="mb-0">
-              <h5 className="mb-2 text-lg font-bold">Dorthy M.</h5>
-              <p className="mb-4">
+            <div className="mb-0 text-center">
+              <h5 className="mb-2 text-2xl font-bold">Dorthy M.</h5>
+              <p className="mb-4 text-xl">
                 Excellent work! Ron and Hez did an amazing job! Knowledgeable
                 and professional team. Had some outlets not functioning
                 properly. They recognized the issues (different issue for each
@@ -265,9 +265,9 @@ const Testimonials = () => {
             </div>
           </div>
           <div className="grid gap-x-6 md:grid-cols-3 lg:gap-x-12 my-20 px-6">
-            <div className="mb-12 md:mb-0">
-              <h5 className="mb-2 text-lg font-bold">Maria Smantha</h5>
-              <p className="mb-4">
+            <div className="mb-12 md:mb-0 text-center">
+              <h5 className="mb-2 text-2xl font-bold">Maria Smantha</h5>
+              <p className="mb-4 text-xl">
                 Mr. Monticquee’s work ethic and professionalism is exemplary.
                 Mr. Monticquee arrived on time, informed me of what was taking
                 place, and the cause of my electrical issues. Mr. Monticquee was

@@ -9,11 +9,11 @@ const ceilingFanInstallationWaldorfMD = () => {
   return (
     <>
       <Header />
-      <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40"></div>
+      <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40 mb-10"></div>
       <div>
-        <div className="container mx-auto w-5xl py-10 flex flex-row px-6 justify-center items-top">
-          <div className="basis-6/12">
-            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
+        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-top">
+          <div className="basis:12/12 lg:basis-6/12">
+            <h1 className="text-4xl lg:text-6xl font-bold tracking-tight pb-6">
               Ceiling Fan Installation in Waldorf, MD
             </h1>
             <p className="py-2 text-xl">
@@ -61,8 +61,8 @@ const ceilingFanInstallationWaldorfMD = () => {
         </div>
       </div>
       <section>
-        <div className="max-w-7xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-5">
+        <div className="max-w-7xl mx-auto px-4 py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-5 text-center">
             Our 3-Step Ceiling Fan Installation Process
           </h2>
           <p className="text-xl pb-4">
@@ -72,7 +72,7 @@ const ceilingFanInstallationWaldorfMD = () => {
             At Electric Electrify, we've streamlined our process into three
             simple steps to provide a quick and hassle-free experience.{' '}
           </p>
-          <div className="py-20 max-w-7xl mx-auto lg:grid grid-cols-3 gap-10">
+          <div className="py-10 px-10 max-w-7xl mx-auto lg:grid grid-cols-3 gap-10 ">
             <div className="text-center max-w-xl p-10 mb-5 border">
               <p className="text-3xl font-bold">Step 1.</p>
               <h3 className="py-5 text-3xl font-bold">
@@ -113,7 +113,7 @@ const ceilingFanInstallationWaldorfMD = () => {
             </div>
           </div>
           <div>
-            <p className="text-2xl max-w-4xl text-center mx-auto">
+            <p className="text-xl max-w-4xl text-center mx-auto">
               In just three easy steps, you can enjoy the comfort and aesthetic
               appeal that a professionally installed ceiling fan brings to your
               Waldorf home. Call Electric Electrify for your installation today!
@@ -130,12 +130,12 @@ const ceilingFanInstallationWaldorfMD = () => {
         </div>
       </section>
       <section>
-        <div className="max-w-5xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-5 text-center">
+        <div className="max-w-5xl mx-auto px-4 py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-5 text-center">
             What are the Benefits of Installing a Ceiling Fan in Your Home or
             Business?
           </h2>
-          <p className="text-2xl pb-5 text-center max-w-4xl mx-auto">
+          <p className="text-xl pb-5 text-center max-w-4xl mx-auto">
             Ceiling fans are more than just decorative fixtures; they are
             practical additions to your home that can significantly improve
             comfort and even help lower your energy bills.{' '}
@@ -143,7 +143,7 @@ const ceilingFanInstallationWaldorfMD = () => {
           <div>
             <div className="lg:grid grid-cols-2 py-10 gap-10">
               <div className="pb-5">
-                <h3 className="py-2 text-3xl font-bold">
+                <h3 className="py-2 text-2xl font-bold">
                   Improved Air Circulation
                 </h3>
                 <p className="text-xl max-w-2xl pb-2">
@@ -153,7 +153,7 @@ const ceilingFanInstallationWaldorfMD = () => {
                 </p>
               </div>
               <div className="pb-5">
-                <h3 className="pb-2 text-3xl font-bold">Energy Savings</h3>
+                <h3 className="pb-2 text-2xl font-bold">Energy Savings</h3>
                 <p className="text-xl max-w-2xl pb-2">
                   Ceiling fans can help you reduce energy consumption by letting
                   you adjust your thermostat settings. During warm months, the
@@ -162,7 +162,7 @@ const ceilingFanInstallationWaldorfMD = () => {
                 </p>
               </div>
               <div className="pb-5">
-                <h3 className="pb-2 text-3xl font-bold">Aesthetic Appeal</h3>
+                <h3 className="pb-2 text-2xl font-bold">Aesthetic Appeal</h3>
                 <p className="text-xl max-w-2xl pb-2">
                   Ceiling fans come in various styles, designs, and finishes,
                   offering a quick and relatively inexpensive way to enhance the
@@ -170,7 +170,7 @@ const ceilingFanInstallationWaldorfMD = () => {
                 </p>
               </div>
               <div className="pb-5">
-                <h3 className="pb-2 text-3xl font-bold">
+                <h3 className="pb-2 text-2xl font-bold">
                   Increases Property Value
                 </h3>
                 <p className="text-xl max-w-2xl pb-2">
@@ -179,7 +179,7 @@ const ceilingFanInstallationWaldorfMD = () => {
                 </p>
               </div>
               <div className="pb-5">
-                <h3 className="pb-2 text-3xl font-bold">
+                <h3 className="pb-2 text-2xl font-bold">
                   Improved Indoor Air Quality
                 </h3>
                 <p className="text-xl max-w-2xl pb-2">
@@ -189,7 +189,7 @@ const ceilingFanInstallationWaldorfMD = () => {
                 </p>
               </div>
               <div className="pb-5">
-                <h3 className="pb-2 text-3xl font-bold">
+                <h3 className="pb-2 text-2xl font-bold">
                   Cost-Effective Cooling Solution
                 </h3>
                 <p className="text-xl max-w-2xl pb-2">
@@ -200,7 +200,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </div>
             </div>
           </div>
-          <div className="mt-20 mb-10 text-center ">
+          <div className="mt-5 mb-5 text-center ">
             <Link
               href="#"
               className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
@@ -211,21 +211,21 @@ const ceilingFanInstallationWaldorfMD = () => {
         </div>
       </section>
       <section>
-        <div className="max-w-5xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-5">
+        <div className="max-w-5xl mx-auto px-6 py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-5">
             How Much Does It Cost To Install a Ceiling Fan in Waldorf?
           </h2>
-          <p className="text-2xl pb-5">
+          <p className="text-xl pb-5">
             The cost of installing a ceiling fan can vary widely depending on
             several factors, including the complexity of the installation,
             whether or not electrical wiring is already in place, and the type
             of ceiling fan you choose.
           </p>
-          <p className="text-2xl pb-5">
+          <p className="text-xl pb-5">
             In Waldorf, prices for a standard ceiling fan installation can range
             from $175 to $700 per fan if the wiring is already in place.
           </p>
-          <p className="text-2xl pb-5">
+          <p className="text-xl pb-5">
             If new electrical wiring is needed, or if the installation involves
             additional complexities like high ceilings, the cost can be
             considerably higher, sometimes reaching $2000 or more.
@@ -242,10 +242,10 @@ const ceilingFanInstallationWaldorfMD = () => {
       </section>
       <section>
         <div className="max-w-5xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-5">
             Types of Ceiling Fans We Install
           </h2>
-          <p className="text-2xl max-w-6xl pb-5">
+          <p className="text-xl max-w-6xl pb-5">
             We pride ourselves on being able to install various ceiling fan
             options to meet diverse needs and preferences. Whether you're
             looking to install a fan in your living room, patio, or commercial
@@ -256,8 +256,8 @@ const ceilingFanInstallationWaldorfMD = () => {
           </p>
           <div className="lg:grid grid-cols-2 py-10 gap-20">
             <div>
-              <h3 className="py-5 text-3xl font-bold">Standard Ceiling Fans</h3>
-              <p className="text-xl max-w-2xl pb-4">
+              <h3 className="py-5 text-2xl font-bold">Standard Ceiling Fans</h3>
+              <p className="text-xl max-w-xl pb-4">
                 These are the most common type of ceiling fans and are great for
                 everyday use in most indoor rooms. They come in various styles
                 and sizes, offering functionality and aesthetic appeal for any
@@ -265,8 +265,8 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">Ceiling Fan Downrods</h3>
-              <p className="text-xl max-w-2xl pb-4">
+              <h3 className="py-5 text-2xl font-bold">Ceiling Fan Downrods</h3>
+              <p className="text-xl max-w-xl pb-4">
                 Ideal for rooms with high ceilings, ceiling fan downrods allow
                 the fan to hang lower, optimizing air circulation in spacious
                 areas. We provide custom downrod installations to ensure the
@@ -274,7 +274,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">Aesthetic Appeal</h3>
+              <h3 className="py-5 text-2xl font-bold">Aesthetic Appeal</h3>
               <p className="text-xl max-w-2xl pb-4">
                 Ceiling fans come in various styles, designs, and finishes,
                 offering a quick and relatively inexpensive way to enhance the
@@ -282,7 +282,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">
+              <h3 className="py-5 text-2xl font-bold">
                 Low-profile Ceiling Fans
               </h3>
               <p className="text-xl max-w-2xl pb-4">
@@ -292,7 +292,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">
+              <h3 className="py-5 text-2xl font-bold">
                 Energy Star Ceiling Fans
               </h3>
               <p className="text-xl max-w-2xl pb-4">
@@ -303,7 +303,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">Smart Ceiling Fans</h3>
+              <h3 className="py-5 text-2xl font-bold">Smart Ceiling Fans</h3>
               <p className="text-xl max-w-2xl pb-4">
                 Control your comfort with just a tap on your smartphone! Smart
                 ceiling fans can be integrated into your home automation system,
@@ -312,7 +312,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">Outdoor Ceiling Fans</h3>
+              <h3 className="py-5 text-2xl font-bold">Outdoor Ceiling Fans</h3>
               <p className="text-xl max-w-2xl pb-4">
                 Built to withstand the elements, our range of outdoor ceiling
                 fans is perfect for patios, decks, and other outdoor spaces.
@@ -321,7 +321,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl font-bold">
+              <h3 className="py-5 text-2xl font-bold">
                 Commercial Ceiling Fans
               </h3>
               <p className="text-xl max-w-2xl pb-4">
@@ -332,7 +332,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
           </div>
-          <div className="mt-20 mb-10 text-center ">
+          <div className="mt-5 mb-5 text-center ">
             <Link
               href="#"
               className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
@@ -343,8 +343,8 @@ const ceilingFanInstallationWaldorfMD = () => {
         </div>
       </section>
       <section>
-        <div className="max-w-5xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-5">
+        <div className="max-w-5xl mx-auto px-6 py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-5">
             Why Choose Us for Your Ceiling Fan Installation in Waldorf, MD?
           </h2>
           {/* <p className="text-2xl pb-5">
@@ -406,8 +406,8 @@ const ceilingFanInstallationWaldorfMD = () => {
         </div>
       </section>
       <section>
-        <div className="max-w-5xl mx-auto px-4 py-20">
-          <h2 className="text-5xl font-bold py-10 text-center">
+        <div className="max-w-5xl mx-auto px-6 py-5">
+          <h2 className="text-3xl lg:text-5xl font-bold py-10 text-center">
             FAQs about Ceiling Fan Installation
           </h2>
           <div className="lg:grid grid-cols-2 gap-10">
@@ -422,7 +422,7 @@ const ceilingFanInstallationWaldorfMD = () => {
               </p>
             </div>
             <div>
-              <h3 className="py-5 text-3xl">
+              <h3 className="py-5 text-2xl">
                 How long does it take to install a ceiling fan?
               </h3>
               <p className="text-xl max-w-2xl pb-4">

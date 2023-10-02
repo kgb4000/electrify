@@ -8,7 +8,7 @@ const About = () => {
     <>
       <Header />
       <div className="bg-[url('https://images.unsplash.com/photo-1583954964358-1bd7215b6f7a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGVsZWN0cmljaWFufGVufDB8fDB8fHww&auto=format&fit=crop&w=900&q=60')] bg-center bg-no-repeat bg-cover">
-        <div className="mx-auto max-w-4xl py-20 sm:py-30 px-6">
+        <div className="mx-auto max-w-4xl py-5 sm:py-30 px-6">
           <div className="text-center">
             <h1 className="text-5xl font-bold tracking-tight text-white sm:text-8xl">
               About Us
@@ -24,12 +24,12 @@ const About = () => {
               >
                 Call (240) 476-5116
               </a>
-              <a
+              {/* <a
                 href="#"
                 className="text-base font-semibold leading-6 text-white"
               >
                 Get Your Quote Today <span aria-hidden="true">→</span>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -40,14 +40,14 @@ const About = () => {
         subtext="Learn more about Electrify Electric and why we're the right fit for your residential or commercial electrical projects."
       /> */}
       <main>
-        <div className="mx-auto max-w-6xl py-6 lg:py-16  px-6">
+        <div className="mx-auto max-w-6xl py-6 lg:py-16 px-6">
           <div className="text-center w-3xl">
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               Our Story
             </h2>
-            <p className="mt-6 text-xl leading-8 text-gray-600 text-center">
-              How we started and where we're going.
-            </p>
+            {/* <p className="mt-6 text-2xl leading-8 text-gray-600 text-center">
+              How we started and where we're going
+            </p> */}
           </div>
           <div className="mx-auto max-w-3xl py-6 lg:py-16">
             <p className="py-2 text-xl">
@@ -100,7 +100,7 @@ const About = () => {
             </p>
             <div className="text-center m-20">
               <Link
-                href="/electrical-services"
+                href="/residential-electric-services"
                 className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 See All Our Services <span aria-hidden="true">→</span>
@@ -145,7 +145,7 @@ const About = () => {
             </ul>
             <div className="text-center mt-20">
               <Link
-                href="#"
+                href="/residential-electric-services"
                 className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 See All Our Services <span aria-hidden="true">→</span>

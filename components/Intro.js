@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Intro = () => {
   return (
     <>
-      <div class="container mx-auto px-4 max-w-5xl py-20">
+      <div class="container mx-auto px-6 max-w-5xl py-5">
         <div className=" w-3xl">
           <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
             Electrical Contractors and Electricians in Southern Maryland
