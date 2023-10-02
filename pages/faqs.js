@@ -45,10 +45,9 @@ const FAQ = () => {
             <h2 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               Frequently Asked Questions
             </h2>
-            <p className="mt-6 text-lg leading-8 text-gray-600 text-center max-w-3xl mx-auto">
-              Please review the following frequently asked questions below. If
-              you still have more questions not addressed here, please use our
-              contatc form, give us a call at 240-476-5116 or send an email to
+            <p className="mt-6 text-lg leading-8 text-gray-600 text-center max-w-2xl mx-auto">
+              If you still have more questions, please use our contact form,
+              give us a call at 240-476-5116 or email us at
               Jerome@Electrify247.com.
             </p>
           </div>

@@ -3,54 +3,66 @@ import Link from 'next/link'
 
 const ServiceAreas = () => {
   return (
-    <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-32">
+    <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-32" id="locations">
       <div className="text-center w-4xl">
         <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
-          Our Geographic Service Areas
+          Our Service Areas
         </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-600 text-center">
+        <p className="mt-6 leading-8 text-gray-600 text-center text-2xl">
           These are the Cities and Towns we provide service in Southern Maryland
         </p>
       </div>
       <div>
-        <div className="mt-10 flex items-center justify-center">
+        <div className="mt-10 flex items-center justify-center text-center">
           <div class="container grid lg:grid-cols-3 text-center">
             <div className="my-10">
               <ul className="space-y-8">
-                <li>Bel Alton, MD</li>
-                <li>Benedict, MD</li>
-                <li>Bennsville, MD</li>
-                <li>Bryans Road, MD</li>
-                <li>Brandywine, MD</li>
-                <li>Clinton, MD</li>
-                <li>Cobb Island, MD</li>
-                <li>Faulkner, MD</li>
+                <li className="text-2xl">Bel Alton, MD</li>
+                <li className="text-2xl">Benedict, MD</li>
+                <li className="text-2xl">Bennsville, MD</li>
+                <li className="text-2xl">Bryans Road, MD</li>
+                <li className="text-2xl">Brandywine, MD</li>
+                <li className="text-2xl">Clinton, MD</li>
+                <li className="text-2xl">Cobb Island, MD</li>
+                <li className="text-2xl">Faulkner, MD</li>
               </ul>
             </div>
             <div className="my-10">
               <ul className="space-y-8">
-                <li>Faulkner, MD</li>
-                <li>Fort Washington, MD</li>
-                <li>Hughesville, MD</li>
-                <li>Indian Head, MD</li>
-                <li>Ironside, MD</li>
-                <li>Issue, MD</li>
-                <li>La Plata, MD</li>
-                <li>Marbury, MD</li>
-              </ul>
-            </div>
-            <div className="my-10">
-              <ul className="space-y-8">
-                <li>Mount Victoria, MD</li>
-                <li>Nanjemoy, MD</li>
-                <li>Newburg, MD</li>
-                <li>Pomfret, MD</li>
-                <li>Port Tobacco, MD</li>
-                <li>Rock Point, MD</li>
-                <li>
-                  <Link href="electrician-waldorf-md">Waldorf, MD</Link>
+                <li className="text-2xl">Faulkner, MD</li>
+                <li className="text-2xl">
+                  <Link
+                    href="electrician-fort-washington-md"
+                    className="hover:text-green-600 hover:underline decoration-green-600 decoration-2 underline-offset-8"
+                  >
+                    Fort Washington, MD
+                  </Link>
                 </li>
-                <li>White Plains, MD</li>
+                <li className="text-2xl">Hughesville, MD</li>
+                <li className="text-2xl">Indian Head, MD</li>
+                <li className="text-2xl">Ironside, MD</li>
+                <li className="text-2xl">Issue, MD</li>
+                <li className="text-2xl">La Plata, MD</li>
+                <li className="text-2xl">Marbury, MD</li>
+              </ul>
+            </div>
+            <div className="my-10">
+              <ul className="space-y-8">
+                <li className="text-2xl">Mount Victoria, MD</li>
+                <li className="text-2xl">Nanjemoy, MD</li>
+                <li className="text-2xl">Newburg, MD</li>
+                <li className="text-2xl">Pomfret, MD</li>
+                <li className="text-2xl">Port Tobacco, MD</li>
+                <li className="text-2xl">Rock Point, MD</li>
+                <li className="text-2xl">
+                  <Link
+                    href="electrician-waldorf-md"
+                    className="hover:text-green-600 hover:underline decoration-green-600 decoration-2 underline-offset-8"
+                  >
+                    Waldorf, MD
+                  </Link>
+                </li>
+                <li className="text-2xl">White Plains, MD</li>
               </ul>
             </div>
           </div>

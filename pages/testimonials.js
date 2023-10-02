@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import Header from '@/components/Header'
 import Testimonial from '@/components/Testimonial'
 import Footer from '@/components/Footer'
@@ -20,21 +21,15 @@ const Testimonials = () => {
               Testimonials
             </h1>
             <p className="mt-6 text-2xl leading-10 text-white">
-              Reviwes From Our Customers
+              Reviews From Our Customers
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
+              <Link
                 href="#"
                 className="rounded-md bg-yellow-400 w-50 py-2.5 px-4 text-base font-semibold text-black shadow-sm hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Call (240) 476-5116
-              </a>
-              <a
-                href="#"
-                className="text-base font-semibold leading-6 text-white"
-              >
                 Get Your Quote Today <span aria-hidden="true">→</span>
-              </a>
+              </Link>
             </div>
           </div>
         </div>

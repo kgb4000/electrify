@@ -3,11 +3,11 @@ import React from 'react'
 const GetQuoteForm = () => {
   return (
     <>
-      <div className="bg-yellow-400 p-10 rounded sm:block lg:float-right ml-8 mb-10 shadow-lg">
-        <form className="w-full max-w-sm ">
-          <h3 className="text-4xl font-bold tracking-tight text-green-600 sm:text-4xl pb-14">
+      <div className="hidden max-w-3xl bg-yellow-400 p-10 rounded ml-8 mb-10 shadow-lg lg:block">
+        <form className="">
+          <p className="text-4xl font-bold tracking-tight text-green-600 sm:text-4xl pb-6">
             How Can We Help You Today?
-          </h3>
+          </p>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
@@ -62,56 +62,6 @@ const GetQuoteForm = () => {
               />
             </div>
           </div>
-          <div className="flex flex-wrap -mx-3 mb-2">
-            {/* <div className="w-full md:w-1/3 px-1 mb-6">
-              <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-city"
-              >
-                City
-              </label>
-              <input
-                className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-city"
-                type="text"
-                placeholder="Waldorf"
-              />
-            </div> */}
-            {/* <div className="w-full md:w-1/3 px-1 mb-6 md:mb-0">
-              <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-state"
-              >
-                State
-              </label>
-              <div className="relative">
-                <select
-                  className="block appearance-none w-full bg-white border border-gray-200 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                  id="grid-state"
-                >
-                  <option>Maryland</option>
-                  <option>DC</option>
-                  <option>Virginia</option>
-                </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                </div>
-              </div>
-            </div> */}
-            {/* <div className="w-full md:w-1/3 px-1 mb-6 md:mb-0">
-              <label
-                className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-                htmlFor="grid-zip"
-              >
-                Zip
-              </label>
-              <input
-                className="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                id="grid-zip"
-                type="text"
-                placeholder="90210"
-              />
-            </div> */}
-          </div>
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full px-3">
               <label
@@ -126,7 +76,7 @@ const GetQuoteForm = () => {
                 type="text"
                 placeholder="Tell us what's happening."
                 height={20}
-                rows="8"
+                rows="6"
               ></textarea>
               {/* <p classNameName="text-gray-600 text-xs italic">
                 Make it as long and as crazy as you'd like

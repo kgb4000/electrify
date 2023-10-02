@@ -17,8 +17,8 @@ const Services = () => {
       </div>
       <div>
         <div className="mt-10 flex items-center justify-center gap-x-6 px-6">
-          <div class="grid gap-10 lg:grid-cols-3 grid-rows-2">
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+          <div class="md:grid gap-4 grid-cols-3 grid-rows-2">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -46,7 +46,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -73,7 +73,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -99,7 +99,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -128,7 +128,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -157,7 +157,7 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700">
+            <div className="block rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 mb-8">
               <a href="#!">
                 <img
                   class="h-auto max-w-full rounded-t-lg"
@@ -189,10 +189,11 @@ const Services = () => {
         </div>
         <div className="text-center mt-20 mb-10">
           <Link
-            href="/electrical-services"
+            href="/residential-electric-services"
             className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
           >
-            See All Our Services <span aria-hidden="true">→</span>
+            See All of Our Residential Services{' '}
+            <span aria-hidden="true">→</span>
           </Link>
         </div>
       </div>

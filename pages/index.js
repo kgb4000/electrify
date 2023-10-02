@@ -21,9 +21,8 @@ export default function Home() {
       <Hero
         // backgroundImage="/images/hero-img.jpg"
         h1text="Electrify Electric"
-        subtext="We are Electrical Contractors and Electricians Serving Residential
-            and Commerical Customers in Southern Maryland, DC and Northern
-            Virginia"
+        subtext="Electricians Serving Residential
+            and Commerical Customers in Southern Maryland"
       />
       <Intro />
       <Services />

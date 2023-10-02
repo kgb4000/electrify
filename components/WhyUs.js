@@ -4,28 +4,24 @@ import GetQuoteForm from './GetQuoteForm'
 const WhyUs = () => {
   return (
     <>
-      <div className="bg-green-600">
-        <div className="mx-auto max-w-6xl py-10 sm:py-12 lg:py-32">
-          <div className="mx-auto max-w-5xl py-10 sm:py-12 lg:py-16 px-6">
+      <section className="bg-green-600">
+        <div className="container mx-auto max-w-9xl py-20 flex flex-row px-6 justify-center items-center lg:mt-0">
+          <div className="basis-12/12 lg:basis-6/12">
             <div>
-              <GetQuoteForm />
-              <div>
-                <div className="w-4xl">
-                  <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-5xl mb-10">
-                    Why Choose Electrify Electric
-                  </h2>
-                </div>
-                <h3 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-3xl py-5">
-                  Expertise You Can Trust
-                </h3>
-                <p className="text-white">
-                  Our team consists of licensed and seasoned electricians with
-                  years of serving the Southern Maryland community. When you
-                  choose Electrify Electric, you choose unparalleled knowledge
-                  and skills, ensuring your electrical needs are addressed
-                  precisely.
-                </p>
+              <div className="w-4xl">
+                <h2 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-5xl mb-10">
+                  Why Choose Electrify Electric
+                </h2>
               </div>
+              <h3 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-3xl py-5">
+                Expertise You Can Trust
+              </h3>
+              <p className="text-white">
+                Our team consists of licensed and seasoned electricians with
+                years of serving the Southern Maryland community. When you
+                choose Electrify Electric, you choose unparalleled knowledge and
+                skills, ensuring your electrical needs are addressed precisely.
+              </p>
               <div>
                 <h3 className="text-4xl font-bold tracking-tight text-yellow-400 sm:text-3xl py-5">
                   Peace of Mind, Guaranteed
@@ -80,7 +76,7 @@ const WhyUs = () => {
                   that your space remains secure and hazard-free.
                 </p>
               </div>
-              <div className="text-center mt-20 mb-10">
+              <div className="mt-20 mb-10">
                 <a
                   href="#"
                   className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
@@ -90,8 +86,11 @@ const WhyUs = () => {
               </div>
             </div>
           </div>
+          <div className="basis-4/12">
+            <GetQuoteForm />
+          </div>
         </div>
-      </div>
+      </section>
     </>
   )
 }

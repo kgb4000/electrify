@@ -4,7 +4,8 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <footer className="bg-zinc-50 mx-auto max-w-full lg:text-left lg:py-16 px-6">
+      <footer className="bg-black mx-auto max-w-full lg:text-left lg:py-16 px-6 lg:mt-20 contrast-100 bg-no-repeat bg-cover bg-bottom">
+        {' '}
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
         <div className="mx-6 py-10 md:text-left">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
@@ -14,38 +15,24 @@ const Footer = () => {
                 Hours of Operation
               </h6>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Sunday: Closed
-                </a>
+                <a className="text-white">Sunday: Closed</a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Monday: 9:00 am - 5:00 pm
-                </a>
+                <a className="text-white">Monday: 9:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Tuesday: 9:00 am - 5:00 pm
-                </a>
+                <a className="text-white">Tuesday: 9:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Wednesday: 9:00 am - 5:00 pm
-                </a>
+                <a className="text-white">Wednesday: 9:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Thursday: 9:00 am - 5:00 pm
-                </a>
+                <a className="text-white">Thursday: 9:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Friday: 9:00 am - 5:00 pm
-                </a>
+                <a className="text-white">Friday: 9:00 am - 5:00 pm</a>
               </p>
-              <p className="mb-4 text-neutral-600 dark:text-neutral-200">
-                Saturday: Closed
-              </p>
+              <p className="text-white">Saturday: Closed</p>
             </div>
             {/* <!-- Useful links section --> */}
             <div className="">
@@ -55,47 +42,49 @@ const Footer = () => {
               <p className="mb-4">
                 <Link
                   href="/"
-                  className="text-neutral-600 dark:text-neutral-200"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   Home
                 </Link>
               </p>
               <p className="mb-4">
                 <Link
-                  href="/electrical-services"
-                  className="text-neutral-600 dark:text-neutral-200"
-                >
-                  Services
-                </Link>
-              </p>
-              <p className="mb-4">
-                <Link
                   href="/about"
-                  className="text-neutral-600 dark:text-neutral-200"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   About us
                 </Link>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">Blog</a>
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
+                  Blog
+                </a>
               </p>
               <p className="mb-4">
                 <Link
                   href="/testimonials"
-                  className="text-neutral-600 dark:text-neutral-200"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   Testimonials
                 </Link>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Get a Quote Today
+                <Link
+                  href="/#locations"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
+                >
+                  Locations
+                </Link>
+              </p>
+              <p className="mb-4">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
+                  Get a Quote
                 </a>
               </p>
               <p className="mb-4">
                 <Link
                   href="/faqs"
-                  className="text-neutral-600 dark:text-neutral-200"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   FAQs
                 </Link>
@@ -107,89 +96,95 @@ const Footer = () => {
                 Residential
               </h6>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Electrical Wiring
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
+                  Electrical Wiring Services
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Electrical Outlet Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Dimmer Switch Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <Link
+                  href="ceiling-fan-installation-waldorf-md"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
+                >
                   Ceiling Fan Installation
-                </a>
+                </Link>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Attic Fan Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Recessed Lighting Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Electrical Panel Upgrades
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Circuit Breaker Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Home Generator Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Home EV Charger Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Basement Wiring
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Pool & Hot Tub Wiring
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Kitchen and Bath Lighting
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Chandelier Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Outdoor Lighting Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Smoke Detector Installation
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <Link
+                  href="24-hour-emergency-electrician"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
+                >
                   24-Hour Emergency Electrician
-                </a>
+                </Link>
               </p>
             </div>
             <div className="">
@@ -202,9 +197,7 @@ const Footer = () => {
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
-                  Office building build-out
-                </a>
+                <a className="text-white">Office building build-out</a>
               </p>
               <p className="mb-4">
                 <a className="text-neutral-600 dark:text-neutral-200">
@@ -242,9 +235,12 @@ const Footer = () => {
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-neutral-600 dark:text-neutral-200">
+                <Link
+                  href="24-hour-emergency-electrician"
+                  className="text-neutral-600 dark:text-neutral-200"
+                >
                   24-Hour Emergency Electrician
-                </a>
+                </Link>
               </p>
             </div>
 
@@ -253,7 +249,7 @@ const Footer = () => {
               <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
-              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
+              <p className="text-white mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -265,8 +261,10 @@ const Footer = () => {
                 </svg> */}
                 Address: 3235 Old Washington Rd,
               </p>
-              <p className="mb-4 lg:flex md:justify-start">Waldorf, MD 20602</p>
-              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
+              <p className="text-white mb-4 lg:flex md:justify-start">
+                Waldorf, MD 20602
+              </p>
+              <p className="text-white mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -278,7 +276,7 @@ const Footer = () => {
                 </svg> */}
                 Email: Jerome@Electrify247.com
               </p>
-              <p className="mb-4 lg:flex items-center justify-center md:justify-start">
+              <p className="text-white mb-4 lg:flex items-center justify-center md:justify-start">
                 {/* <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -313,14 +311,14 @@ const Footer = () => {
         </div>
       </footer>
       {/* <!--Copyright section--> */}
-      <div className="bg-black p-6 text-center ">
-        <div className="font-semibold text-yellow-300 mb-4">
+      <div className="bg-yellow-300 p-6 text-center ">
+        <div className="font-semibold text-black mb-4">
           <span>&copy; {new Date().getFullYear()} Copyright </span>
           <Link href="/">Electrify Electric</Link>
         </div>
-        <a className="text-yellow-600" href="mailto:">
+        {/* <a className="text-yellow-600" href="mailto:">
           Site by: Jubilee Technology Services
-        </a>
+        </a> */}
       </div>
     </>
   )

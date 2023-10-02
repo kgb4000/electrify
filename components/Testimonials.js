@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div className="lg:px-6 bg-zinc-50 py-28">
       <div className="mx-auto max-w-6xl">
-        <section className="mb-32 text-center">
+        <section className="mb-5 text-center">
           <div className="text-center w-4xl px-6">
             <h2 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
               What Our Customers Say
@@ -513,7 +513,7 @@ const Testimonials = () => {
               </ul>
             </div>
           </div>
-          <div className="text-center mt-20 mb-10">
+          <div className="text-center mt-20">
             <Link
               href="/testimonials"
               className="inline-block  bg-yellow-400 rounded px-10 py-5 text-base font-semibold  text-black uppercase leading-normal text-primary transition duration-150 ease-in-out"
