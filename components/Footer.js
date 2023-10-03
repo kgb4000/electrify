@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black mx-auto max-w-full lg:text-left lg:py-16 px-6 lg:mt-20 contrast-100 bg-no-repeat bg-cover bg-bottom">
+      <footer className="bg-black mx-auto max-w-full lg:text-left lg:py-16 lg:mt-20 contrast-100 bg-no-repeat bg-cover bg-bottom mt-20">
         {' '}
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
         <div className="mx-6 py-10 md:text-left">
@@ -112,7 +112,7 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <Link
-                  href="ceiling-fan-installation-waldorf-md"
+                  href="/ceiling-fan-installation-waldorf-md"
                   className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   Ceiling Fan Installation
@@ -124,9 +124,12 @@ const Footer = () => {
                 </a>
               </p>
               <p className="mb-4">
-                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
+                <Link
+                  href="/recessed-lighting-installation-waldorf-md"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
+                >
                   Recessed Lighting Installation
-                </a>
+                </Link>
               </p>
               <p className="mb-4">
                 <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
@@ -166,6 +169,11 @@ const Footer = () => {
               <p className="mb-4">
                 <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
                   Chandelier Installation
+                </a>
+              </p>
+              <p className="mb-4">
+                <a className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8">
+                  GFCI Outlet Wiring
                 </a>
               </p>
               <p className="mb-4">

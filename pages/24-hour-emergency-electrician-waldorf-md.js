@@ -239,8 +239,8 @@ const electricalServices = () => {
       </section>
       <section>
         <div className="px-6 mb-20">
-          <div className="max-w-5xl mx-auto px- bg-green-600 py-16 px-10 rounded">
-            <p className="text-3xl text-white">
+          <div className="max-w-5xl mx-auto px- bg-green-600 py-16 px-5 rounded">
+            <p className="text-2xl text-white px-6">
               If you have any of these signs, reach out to our emergency
               electrical service technicians at{' '}
               <a href="tel:12404765116" className="hover:text-yellow-400">
@@ -252,7 +252,7 @@ const electricalServices = () => {
             <div className="mt-10 text-center ">
               <a
                 href="#"
-                className="rounded-md bg-yellow-400 w-80 px-10 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
+                className="rounded-md bg-yellow-400 w-80 px-6 py-5 text-base  font-semibold text-black shadow-sm uppercase leading-normal hover:bg-yellow-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-yellow-200"
               >
                 Don't Wait, Call Us Now<span aria-hidden="true">→</span>
               </a>

@@ -28,7 +28,7 @@ const ceilingFanInstallationWaldorfMD = () => {
       <div>
         <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-top">
           <div className="basis:12/12 lg:basis-6/12">
-            <h1 className="text-4xl lg:text-6xl font-bold tracking-tight pb-6">
+            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
               Ceiling Fan Installation in Waldorf, MD
             </h1>
             <p className="py-2 text-xl">
