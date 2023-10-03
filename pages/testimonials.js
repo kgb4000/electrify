@@ -17,7 +17,7 @@ const Testimonials = () => {
       <div className="bg-blend-overlay bg-[url('https://images.pexels.com/photos/5693405/pexels-photo-5693405.jpeg?auto=compress&cs=tinysrgb&w=1200')] bg-center bg-no-repeat bg-cover backdrop-saturate-50 bg-black/30">
         <div className="mx-auto max-w-6xl py-40 sm:py-30 px-6">
           <div className="text-center">
-            <h1 className="text-4xl font-bold tracking-tight text-white sm:text-8xl">
+            <h1 className="text-5xl font-bold tracking-tight text-white sm:text-7xl">
               Testimonials
             </h1>
             <p className="mt-6 text-2xl leading-10 text-white">

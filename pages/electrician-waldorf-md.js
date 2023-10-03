@@ -28,7 +28,7 @@ const electricianWaldorfMD = () => {
       <section>
         <div className="container mx-auto max-w-7xl flex flex-row px-6 justify-center items-center mt-10 lg:mt-10">
           <div className="basis-12/12 lg:basis-8/12">
-            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
+            <h1 className="text-5xl font-bold tracking-tight sm:text-7xl pb-6">
               Electrician in Waldorf, MD
             </h1>
             <p className="py-2 text-xl">

@@ -13,7 +13,7 @@ const electricalServices = () => {
       <div>
         <div className="container mx-auto py-10 flex flex-row px-6 justify-center items-center">
           <div className="basis-6/12">
-            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
+            <h1 className="text-5xl font-bold tracking-tight sm:text-7xl pb-6">
               Electrician in Fort Washington, MD
             </h1>
             <p className="py-2 text-xl">
