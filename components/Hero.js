@@ -7,10 +7,12 @@ const Hero = ({ h1text, subtext, backgroundImage, backgroundHeight }) => {
         <div className="bg-[url('/images/hero-img.jpg')] h-4/6 bg-no-repeat bg-cover bg-bottom backdrop-saturate-50 bg-black/30">
           <div className="mx-auto max-w-4xl py-40 xl:py-60 2xl:py-70">
             <div className="text-center">
-              <h1 className="text-5xl lg:text-9xl font-bold tracking-tight text-white ">
+              <h1 className="text-6xl lg:text-9xl font-bold tracking-tight text-white ">
                 {h1text}
               </h1>
-              <p className="mt-6 text-3xl leading-10 text-white">{subtext}</p>
+              <p className="text-xl lg:text-2xl leading-10 px-6 mt-6  text-white">
+                {subtext}
+              </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
                   href="#"

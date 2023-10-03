@@ -5,9 +5,9 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Emergency', href: '24-hour-emergency-electrician' },
-  { name: 'Residential', href: '/residential-electric-services' },
-  { name: 'Commercial', href: '/commercial-electric-services' },
+  { name: 'Emergency', href: '24-hour-emergency-electrician-waldorf-md' },
+  { name: 'Residential', href: '/residential-electric-services-waldorf-md' },
+  { name: 'Commercial', href: '/commercial-electric-services-waldorf-md' },
   { name: 'About us', href: '/about' },
   { name: 'Contact', href: '#' },
 ]
@@ -16,9 +16,18 @@ const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   return (
     <>
-      <header className=" bg-white mx-auto py-5 md:py-0">
+      <header className=" bg-white mx-auto md:py-0">
+        <div className="md:hidden bg-yellow-400">
+          <div className="max-w-7xl mx-auto py-5">
+            <div className="text-center">
+              <a href="tel:12404765116" className="text-xl font-bold">
+                Call: (240) 476-5116
+              </a>
+            </div>
+          </div>
+        </div>
         <div className="hidden md:block bg-yellow-400">
-          <div className="max-w-7xl mx-auto flex justify-between items-center py-2  mb-5 px-6  md:px-6">
+          <div className="max-w-7xl mx-auto flex justify-between items-center px-2  py-2">
             <div className="flex items-center">
               <p className="font-bold mr-2">All Major Credit Cards Accepted</p>
               <img src="/images/visa.png" className="w-10 mr-2" />
@@ -45,9 +54,9 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="px-6 max-w-7xl mx-auto">
+        <div className="container max-w-7xl mx-auto py-5">
           <nav
-            className="flex items-center justify-between lg:px-6 md:pb-5"
+            className="flex items-center justify-between px-6"
             aria-label="Global"
           >
             <div className="flex lg:flex-1">

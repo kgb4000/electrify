@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-5">
             {/* <!-- Tailwind Elements section --> */}
             <div className="">
-              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="text-white text-xl mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Hours of Operation
               </h6>
               <p className="mb-4">
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             {/* <!-- Useful links section --> */}
             <div className="">
-              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="text-white text-xl mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Useful links
               </h6>
               <p className="mb-4">
@@ -92,7 +92,7 @@ const Footer = () => {
             </div>
             {/* <!-- Products section --> */}
             <div className="">
-              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="text-white text-xl mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Residential
               </h6>
               <p className="mb-4">
@@ -188,7 +188,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="">
-              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="text-white text-xl mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Commercial
               </h6>
               <p className="mb-4">
@@ -246,7 +246,7 @@ const Footer = () => {
 
             {/* <!-- Contact section --> */}
             <div>
-              <h6 className="mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
+              <h6 className="text-white text-xl mb-4 lg:flex justify-center font-semibold uppercase md:justify-start">
                 Contact
               </h6>
               <p className="text-white mb-4 lg:flex items-center justify-center md:justify-start">
@@ -311,8 +311,8 @@ const Footer = () => {
         </div>
       </footer>
       {/* <!--Copyright section--> */}
-      <div className="bg-yellow-300 p-6 text-center ">
-        <div className="font-semibold text-black mb-4">
+      <div className="bg-yellow-300 py-6 text-center ">
+        <div className="font-semibold text-black">
           <span>&copy; {new Date().getFullYear()} Copyright </span>
           <Link href="/">Electrify Electric</Link>
         </div>

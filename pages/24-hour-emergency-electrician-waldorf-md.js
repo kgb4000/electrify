@@ -6,14 +6,29 @@ import GetQuoteForm from '@/components/GetQuoteForm'
 import Link from 'next/link'
 import WhyUs from '@/components/WhyUs'
 
+import { NextSeo } from 'next-seo'
+
 const electricalServices = () => {
+  const SEO = {
+    title:
+      '24 Hour Emergency Electrician in Waldorf, MD for Electrical Emergencies',
+    description: `Have an electrical emergency at your home or business? We're in Waldorf, MD and we're available 24/7. Don't hesitate. Call Electrify Electric Now!`,
+    canonical: 'https://electrify247.com/24-hour-emergency-electrician',
+    openGraph: {
+      title:
+        '24 Hour Emergency Electrician in Waldorf, MD for Electrical Emergencies',
+      description: `Have an electrical emergency? We're in Waldorf, MD and we're available 24/7. Don't hesitate. Call Electrify Electric Now!`,
+      image: [{}],
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40"></div>
       <section>
-        <div className="container mx-auto w-5xl py-10 flex px-6 justify-center items-center">
-          <div className="basis-12/12 lg:basis-6/12">
+        <div className="container mx-auto max-w-7xl flex flex-row px-6 justify-center items-center mt-10 lg:mt-10">
+          <div className="basis-12/12 lg:basis-8/12">
             <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
               24-Hour Emergency Electrician
             </h1>

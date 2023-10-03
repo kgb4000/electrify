@@ -5,9 +5,24 @@ import Footer from '@/components/Footer'
 import GetQuoteForm from '@/components/GetQuoteForm'
 import Link from 'next/link'
 
+import { NextSeo } from 'next-seo'
+
 const ceilingFanInstallationWaldorfMD = () => {
+  const SEO = {
+    title:
+      'Ceiling Fan Installation in Waldorf, MD | Call Electric Electrify Today!',
+    description: `Looking for professional Ceiling Fan Installation in Waldorf, MD? We’re your trusted choice. Call Electrify Electric and get yours installed today!`,
+    canonical: 'https://electrify247.com/ceiling-fan-installation-waldorf-md',
+    openGraph: {
+      title:
+        'Ceiling Fan Installation in Waldorf, MD | Call Electric Electrify Today!',
+      description: `Looking for professional Ceiling Fan Installation in Waldorf, MD? We’re your trusted choice. Call Electrify Electric and get yours installed today!`,
+      image: [{}],
+    },
+  }
   return (
     <>
+      <NextSeo {...SEO} />
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40 mb-10"></div>
       <div>

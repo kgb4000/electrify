@@ -12,9 +12,9 @@ const electricalServices = () => {
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40"></div>
       <section>
-        <div className="container mx-auto w-5xl py-10 flex flex-row px-6 justify-center items-center">
-          <div className="basis-6/12">
-            <h1 className="text-3xl lg:text-7xl font-bold tracking-tight  pb-6">
+        <div className="container mx-auto max-w-7xl flex flex-row px-6 justify-center items-center mt-10 lg:mt-10">
+          <div className="basis-12/12 lg:basis-8/12">
+            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
               Residential Electric Services
             </h1>
             <p className="py-2 text-xl">
