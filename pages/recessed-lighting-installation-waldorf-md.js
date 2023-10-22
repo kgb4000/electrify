@@ -26,8 +26,8 @@ const recessedLightingInstallationWaldorfMD = () => {
       <NextSeo {...SEO} />
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40 mb-10"></div>
-      <div>
-        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-top">
+      <section className="mt-10">
+        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-center">
           <div className="basis:12/12 lg:basis-6/12">
             <h1 className="text-5xl font-bold tracking-tight sm:text-7xl pb-6">
               Recessed Lighting Installation in Waldorf, MD
@@ -75,7 +75,7 @@ const recessedLightingInstallationWaldorfMD = () => {
             <GetQuoteForm />
           </div>
         </div>
-      </div>
+      </section>
       <section>
         <div className="max-w-7xl mx-auto px-4 py-5 my-20">
           <h2 className="max-w-4xl mx-auto text-3xl lg:text-5xl font-bold py-5 text-center">

@@ -25,8 +25,8 @@ const ceilingFanInstallationWaldorfMD = () => {
       <NextSeo {...SEO} />
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40 mb-10"></div>
-      <div>
-        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-top">
+      <section className="mt-10">
+        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-center">
           <div className="basis:12/12 lg:basis-6/12">
             <h1 className="text-5xl font-bold tracking-tight sm:text-7xl pb-6">
               Ceiling Fan Installation in Waldorf, MD
@@ -46,16 +46,16 @@ const ceilingFanInstallationWaldorfMD = () => {
               reliability, and long-term performance.
             </p>
             <p className="py-2 text-xl">
-              With Electrify Electric's professional electricians, you can rest
-              easy knowing that our experienced and qualified team will take
-              care of all the details, from choosing the right fan for your
-              space to installing it with utmost precision.
+              With our professional electricians, you can rest easy knowing that
+              our experienced and qualified team will take care of all the
+              details, from choosing the right fan for your space to installing
+              it with utmost precision.
             </p>
-            <p className="py-2 text-xl">
+            {/* <p className="py-2 text-xl">
               With our affordable and hassle-free ceiling fan Installation
               services in Waldorf, MD, you can enhance your home's aesthetics
               while improving air circulation and reducing energy costs.
-            </p>
+            </p> */}
             <p className="py-2 text-xl  font-bold">
               For your ceiling fan installation in Waldorf, call us today at
               240-467-5116 or complete our contact form to kickstart your
@@ -74,19 +74,17 @@ const ceilingFanInstallationWaldorfMD = () => {
             <GetQuoteForm />
           </div>
         </div>
-      </div>
+      </section>
       <section>
         <div className="max-w-7xl mx-auto px-4 py-5">
           <h2 className="text-3xl lg:text-5xl font-bold py-5 text-center">
             Our 3-Step Ceiling Fan Installation Process
           </h2>
-          <p className="text-xl pb-4">
-            Installing a new ceiling fan doesn't have to be complicated.{' '}
+          <p className="text-xl pb-4 text-center">
+            Installing a new ceiling fan doesn't have to be complicated. We've
+            streamlined our process into three simple steps
           </p>
-          <p className="text-xl pb-4">
-            At Electric Electrify, we've streamlined our process into three
-            simple steps to provide a quick and hassle-free experience.{' '}
-          </p>
+          <p className="text-xl pb-4"></p>
           <div className="py-10 px-10 max-w-7xl mx-auto lg:grid grid-cols-3 gap-10 ">
             <div className="text-center max-w-xl p-10 mb-5 border">
               <p className="text-3xl font-bold">Step 1.</p>

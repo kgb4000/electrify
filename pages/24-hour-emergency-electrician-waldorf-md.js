@@ -13,7 +13,8 @@ const electricalServices = () => {
     title:
       '24 Hour Emergency Electrician in Waldorf, MD for Electrical Emergencies',
     description: `Have an electrical emergency at your home or business? We're in Waldorf, MD and we're available 24/7. Don't hesitate. Call Electrify Electric Now!`,
-    canonical: 'https://electrify247.com/24-hour-emergency-electrician',
+    canonical:
+      'https://electrify247.com/24-hour-emergency-electrician-waldorf-md',
     openGraph: {
       title:
         '24 Hour Emergency Electrician in Waldorf, MD for Electrical Emergencies',
@@ -26,11 +27,11 @@ const electricalServices = () => {
       <NextSeo {...SEO} />
       <Header />
       <div className="bg-[url('https://images.pexels.com/photos/942316/pexels-photo-942316.jpeg?auto=compress&cs=tinysrgb&w=800')] bg-center bg-no-repeat bg-cover h-40"></div>
-      <section>
-        <div className="container mx-auto max-w-7xl flex flex-row px-6 justify-center items-center mt-10 lg:mt-10">
-          <div className="basis-12/12 lg:basis-8/12">
-            <h1 className="text-6xl font-bold tracking-tight sm:text-8xl pb-6">
-              24-Hour Emergency Electrician
+      <section className="mt-10">
+        <div className="container mx-auto w-5xl py-5 flex flex-row px-6 justify-center items-center">
+          <div className="basis:12/12 lg:basis-6/12">
+            <h1 className="text-5xl font-bold tracking-tight sm:text-7xl pb-6">
+              24-Hour Emergency Electrician in Waldorf, MD
             </h1>
             <p className="py-2 text-xl">
               At Electrify Electric, we understand the importance of prompt and
@@ -78,7 +79,6 @@ const electricalServices = () => {
               There are many instances that are considered to be an electrical
               emergency.
             </p>
-            <p className="py-2 text-xl">They include:</p>
             <div className="grid lg:grid-cols-2 gap-10 my-10 lg:my-5 text-lg">
               <div>
                 <p className="font-bold">Lights flickering repeatedly</p>

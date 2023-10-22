@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Footer = () => {
   return (
     <>
-      <footer className="bg-black mx-auto max-w-full lg:text-left lg:py-16 lg:mt-20 contrast-100 bg-no-repeat bg-cover bg-bottom mt-20">
+      <footer className="bg-black mx-auto max-w-full lg:text-left lg:py-16 lg:mt-20 contrast-100 bg-no-repeat bg-cover bg-bottom mt-20 px-20">
         {' '}
         {/* <!-- Main container div: holds the entire content of the footer, including four sections (Tailwind Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
         <div className="mx-6 py-10 md:text-left">
@@ -18,19 +18,19 @@ const Footer = () => {
                 <a className="text-white">Sunday: Closed</a>
               </p>
               <p className="mb-4">
-                <a className="text-white">Monday: 9:00 am - 5:00 pm</a>
+                <a className="text-white">Monday: 7:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-white">Tuesday: 9:00 am - 5:00 pm</a>
+                <a className="text-white">Tuesday: 7:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-white">Wednesday: 9:00 am - 5:00 pm</a>
+                <a className="text-white">Wednesday: 7:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-white">Thursday: 9:00 am - 5:00 pm</a>
+                <a className="text-white">Thursday: 7:00 am - 5:00 pm</a>
               </p>
               <p className="mb-4">
-                <a className="text-white">Friday: 9:00 am - 5:00 pm</a>
+                <a className="text-white">Friday: 7:00 am - 5:00 pm</a>
               </p>
               <p className="text-white">Saturday: Closed</p>
             </div>
@@ -188,7 +188,7 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <Link
-                  href="24-hour-emergency-electrician"
+                  href="/24-hour-emergency-electrician-waldorf-md"
                   className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   24-Hour Emergency Electrician
@@ -244,8 +244,8 @@ const Footer = () => {
               </p>
               <p className="mb-4">
                 <Link
-                  href="24-hour-emergency-electrician"
-                  className="text-neutral-600 dark:text-neutral-200"
+                  href="/24-hour-emergency-electrician-waldorf-md"
+                  className="text-white hover:text-yellow-200 hover:underline decoration-yellow-200 decoration-2 underline-offset-8"
                 >
                   24-Hour Emergency Electrician
                 </Link>

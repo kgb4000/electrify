@@ -6,8 +6,8 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
   { name: 'Emergency', href: '24-hour-emergency-electrician-waldorf-md' },
-  { name: 'Residential', href: '/residential-electric-services-waldorf-md' },
-  { name: 'Commercial', href: '/commercial-electric-services-waldorf-md' },
+  { name: 'Residential', href: '/residential-electrical-services-waldorf-md' },
+  { name: 'Commercial', href: '/commercial-electrical-services-waldorf-md' },
   { name: 'About us', href: '/about' },
   { name: 'Contact', href: '#' },
 ]

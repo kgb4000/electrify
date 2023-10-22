@@ -62,7 +62,7 @@ const ServiceAreas = () => {
                     Waldorf, MD
                   </Link>
                 </li>
-                <li className="text-2xl">White Plains, MD</li>
+                <li className="text-xl">White Plains, MD</li>
               </ul>
             </div>
           </div>
